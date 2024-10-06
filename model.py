@@ -5,6 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score, classification_report
 
+#Please update the path of the dataset according to where you save them 
 train_data = pd.read_csv('C:\Python\Debug\BBC News Train.csv')
 test_data = pd.read_csv('C:\Python\Debug\BBC News Test.csv')
 
