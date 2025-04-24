@@ -11,6 +11,15 @@ This project demonstrates text classification with a real-world dataset of BBC n
 - Training and evaluation of a Naive Bayes model
 - Performance reporting with precision, recall, F1-score
 
+## ⚙️ Tech Stack
+
+- **Language**: Python
+- **Libraries**:
+  - `pandas` for data handling
+  - `scikit-learn` for ML modeling and metrics
+  - `TfidfVectorizer` for feature extraction
+- **Model**: Multinomial Naive Bayes
+
 ## 📁 Dataset
 
 The dataset consists of two CSV files:
@@ -37,16 +46,13 @@ Install dependencies using:
 pip install pandas scikit-learn
 ```
 
-### 🚀 How to Run
-
+###🚀 How to Run
 ```bash
 python topic_classifier.py
 ```
 Ensure that the dataset files are correctly placed and the file paths in the script are updated accordingly.
 
-
-### 📈Sample Output
-
+###📈 Sample Output
 ```bash
 Validation Accuracy: 0.965
 Precision: 0.96
@@ -54,8 +60,14 @@ Recall: 0.965
 F1-score: 0.962
 ```
 
-### 📊 Future Improvements
+###📊 Future Improvements
 - Support for more complex models (e.g., SVM, LSTM)
 - Web-based demo using Flask or Streamlit
 - Improved preprocessing (lemmatization, named entity removal)
+
+###🙌 Acknowledgements
+Dataset sourced from [BBC News Dataset](https://www.kaggle.com/competitions/learn-ai-bbc/)
+Inspired by academic and real-world applications of text classification
+Shoutout to scikit-learn for making ML accessible and efficient 🚀
+
 
