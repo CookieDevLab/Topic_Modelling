@@ -67,6 +67,7 @@ F1-score: 0.962
 
 ### 🙌 Acknowledgements
 Dataset sourced from [BBC News Dataset](https://www.kaggle.com/competitions/learn-ai-bbc/)
+
 Inspired by academic and real-world applications of text classification
 Shoutout to scikit-learn for making ML accessible and efficient 🚀
 
