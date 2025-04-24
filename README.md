@@ -1,8 +1,8 @@
-# BBC News Topic Classifier 📰🤖
+### BBC News Topic Classifier 📰🤖
 
 A Python-based machine learning project that classifies BBC news articles into categories using Natural Language Processing techniques. It uses TF-IDF for feature extraction and a Multinomial Naive Bayes classifier for prediction.
 
-## 🔍 Overview
+### 🔍 Overview
 
 This project demonstrates text classification with a real-world dataset of BBC news articles. The process includes:
 
@@ -11,7 +11,7 @@ This project demonstrates text classification with a real-world dataset of BBC n
 - Training and evaluation of a Naive Bayes model
 - Performance reporting with precision, recall, F1-score
 
-## ⚙️ Tech Stack
+### ⚙️ Tech Stack
 
 - **Language**: Python
 - **Libraries**:
@@ -20,7 +20,7 @@ This project demonstrates text classification with a real-world dataset of BBC n
   - `TfidfVectorizer` for feature extraction
 - **Model**: Multinomial Naive Bayes
 
-## 📁 Dataset
+### 📁 Dataset
 
 The dataset consists of two CSV files:
 
@@ -33,12 +33,12 @@ Each file contains:
 
 > **Note:** Make sure to update the file paths in the code as per your local directory structure.
 
-## 🧠 Model
+### 🧠 Model
 
 - **Vectorizer**: `TfidfVectorizer` (with stopword removal and `max_df=0.7`)
 - **Classifier**: `MultinomialNB` from `sklearn.naive_bayes`
 
-## 🛠️ Requirements
+### 🛠️ Requirements
 
 Install dependencies using:
 
